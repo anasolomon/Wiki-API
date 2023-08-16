@@ -1,0 +1,19 @@
+{
+  "name": "codewiki-api-rest",
+  "version": "1.0.0",
+  "description": "Creating a new Database through the GUI Robo 3T instead of the mongo shell.  \r Note: remember that when naming a collection manually you must write it in lowercase and in plural.  \r Adding a collection called \"articles\" and populating it :\r ![](https://media.discordapp.net/attachments/1141016274160328756/1141328822566928404/Screenshot_2.png)  \r Now that we've created our Datanase it's time to set up our server. \r ![](https://media.discordapp.net/attachments/1141016274160328756/1141329230177779813/Screenshot_3.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.13.20"
+  }
+}
